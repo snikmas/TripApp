@@ -15,14 +15,25 @@
    <link rel="stylesheet" href="/styles/general.css">
    <link rel="stylesheet" href="/styles/header.css">
    <link rel="stylesheet" href="/styles/footer.css">
+   <link rel="stylesheet" href="/styles/mapModal.css">
 </head>
 <body>
   <header>
   	<nav class="header-nav">
       <a href="/">Home</a>
       <a href="/pages/about.html">About Us</a>
-      <a href="/pages/destinations.html">Destinations</a>
-      <a href="/pages/gallery.html">Gallery</a>
+
+      <div class="dropdown">
+        <a href="/pages/destinations.html">Destinations</a>
+        <ul class="submenu">
+          <li><a href="/pages/allTours.html?region=asia">Asia</a></li>
+          <li><a href="/pages/allTours.html?region=africa">Africa</a></li>
+          <li><a href="/pages/allTours.html?region=europe">Europe</a></li>
+          <li><a href="/pages/allTours.html?region=northAmerica">North America</a></li>
+          <li><a href="/pages/allTours.html?region=southAmerica">South America</a></li>
+        </ul>
+      </div>
+
       <a href="/pages/contact.html">Contact</a>
     </nav>
 	</header>
@@ -32,7 +43,7 @@
       <h3>PLAN YOUR NEXT ADVENTURE</h3>
     </div>
     <div class="btn-start">
-      <a href ="#" class = "button">
+      <a class = "button" id="start">
         <span></span>
         <span></span>
         <span></span>
@@ -55,13 +66,10 @@
       <div class="nav-foot">
         <h6>Navigation</h6>
         <nav>
-          <a href="#">Home</a>
-          <a href="pages/about.html">About Us</a>
-          <a href="/pages/destinationshtml">Destinations</a>
-          <a href="/pages/activitieshtml">Activities</a>
-          <a href="/pages/plannerhtml">Planner</a>
-          <a href="/pages/galleryhtml">Gallery</a>
-          <a href="/pages/cotnacthtml">Contact</a>
+          <a href="../index.html">Home</a>
+          <a href="/pages/about.html">About Us</a>
+          <a href="/pages/destinations.html">Destinations</a>
+          <a href="/pages/contact.html">Contact</a>
         </nav>
       </div>
     </div>
@@ -84,5 +92,21 @@
   </footer>
 
 
+
+<button id="start">Open Map</button>
+
+<div id="mapModal" class="modal" style="display:none;">
+  <div class="modal-content">
+  <h1>CHOOSE YOUR Destination</h1>
+  <span class="close">&times;</span>
+
+    <!-- SVG will be injected here -->
+  </div>
+</div>
+
+
+
+
+  <script src="scripts/mapModal.js"></script>
 </body>
 </html>

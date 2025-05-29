@@ -3,7 +3,7 @@ footer {
   flex-direction: column;
   padding:1rem 5rem;
 
-  background-color: #0b0c0d46
+  background-color: #0b0c0d46;
 }
 
 
@@ -97,10 +97,6 @@ footer nav {
   gap:1rem;
 }
 
-footer hr {
-  color:darkorange;
-  /* width:2px; */
-}
 
 .society {
 
@@ -136,4 +132,15 @@ footer hr {
 footer hr {
   width: 100%;
   margin:2rem 0 2rem;
+}
+
+
+footer a {
+  color: rgba(255, 255, 255, 0.85);
+  transition: color 0.1s ease, opacity 0.1s ease;
+}
+
+footer a:hover {
+  color: rgba(255, 255, 255, 0.49);
+  opacity: 0.9;
 }

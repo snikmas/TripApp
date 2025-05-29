@@ -720,7 +720,152 @@ export const data = {
   price: 3000,
   date: 'October 25, 2025',
   age: '12+'
+}]},
+
+oceania: {
+  description: 'Discover Oceania’s pristine beaches, rich indigenous cultures, and unforgettable natural wonders. From Australia’s outback to New Zealand’s fjords and the South Pacific’s idyllic islands, it’s a paradise for nature and adventure lovers.',
+  tours: [
+    {
+      title: 'Great Barrier Reef Adventure',
+      text: 'Snorkel or dive among colorful corals and marine life off the coast of Queensland.',
+      style: 'active',
+      service: 'comfort',
+      img: '/assets/oc-tour-1.jpg',
+      place: 'Australia',
+      rating: 'Light',
+      days: 6,
+      type: 'Small group',
+      price: 3200,
+      date: 'April 10, 2025',
+      age: '10+'
+    },
+    {
+      title: 'New Zealand South Island Explorer',
+      text: 'Hike through fjords, mountains, and lakes in breathtaking natural surroundings.',
+      style: 'active',
+      service: 'comfort',
+      img: '/assets/oc-tour-2.jpg',
+      place: 'New Zealand',
+      rating: 'Demanding',
+      days: 10,
+      type: 'Small group',
+      price: 3900,
+      date: 'November 15, 2025',
+      age: '12+'
+    },
+    {
+      title: 'Sydney & Coastal Highlights',
+      text: 'Discover Sydney’s icons, beaches, and nearby national parks in a relaxed tour.',
+      style: 'classic',
+      service: 'standard',
+      img: '/assets/oc-tour-3.jpg',
+      place: 'Australia',
+      rating: 'Easy',
+      days: 5,
+      type: 'Independent travel',
+      price: 2500,
+      date: 'May 05, 2025',
+      age: '8+'
+    },
+    {
+      title: 'Fiji Island Escape',
+      text: 'Relax on white-sand beaches, snorkel in crystal-clear waters, and enjoy island hospitality.',
+      style: 'classic',
+      service: 'comfort',
+      img: '/assets/oc-tour-4.jpg',
+      place: 'Fiji',
+      rating: 'Easy',
+      days: 7,
+      type: 'Family group',
+      price: 3300,
+      date: 'June 18, 2025',
+      age: '6+'
+    },
+    {
+      title: 'Tasmania Wilderness & Wine',
+      text: 'Hike through remote national parks and taste local wines and gourmet produce.',
+      style: 'active',
+      service: 'comfort',
+      img: '/assets/oc-tour-5.jpg',
+      place: 'Australia (Tasmania)',
+      rating: 'Average',
+      days: 8,
+      type: 'Small group',
+      price: 3100,
+      date: 'March 22, 2025',
+      age: '12+'
+    },
+    {
+      title: 'New Zealand North Island Culture & Nature',
+      text: 'Experience Maori culture, geothermal wonders, and lush landscapes.',
+      style: 'classic',
+      service: 'standard',
+      img: '/assets/oc-tour-6.jpg',
+      place: 'New Zealand',
+      rating: 'Average',
+      days: 7,
+      type: 'Family group',
+      price: 2800,
+      date: 'October 09, 2025',
+      age: '10+'
+    },
+    {
+      title: 'Cook Islands Secluded Paradise',
+      text: 'Escape to an untouched island oasis with turquoise lagoons and local traditions.',
+      style: 'classic',
+      service: 'comfort',
+      img: '/assets/oc-tour-7.jpg',
+      place: 'Cook Islands',
+      rating: 'Easy',
+      days: 6,
+      type: 'Couples retreat',
+      price: 3100,
+      date: 'July 01, 2025',
+      age: '18+'
+    },
+    {
+      title: 'Outback & Uluru Experience',
+      text: 'Journey deep into the red center and learn about Aboriginal heritage.',
+      style: 'active',
+      service: 'standard',
+      img: '/assets/oc-tour-8.jpg',
+      place: 'Australia',
+      rating: 'Average',
+      days: 6,
+      type: 'Small group',
+      price: 2700,
+      date: 'September 12, 2025',
+      age: '10+'
+    },
+    {
+      title: 'Vanuatu Volcano & Village Life',
+      text: 'Explore active volcanoes and stay in traditional villages for an immersive trip.',
+      style: 'active',
+      service: 'standard',
+      img: '/assets/oc-tour-9.jpg',
+      place: 'Vanuatu',
+      rating: 'Challenging',
+      days: 7,
+      type: 'Adventure group',
+      price: 2900,
+      date: 'August 03, 2025',
+      age: '14+'
+    },
+    {
+      title: 'Bay of Islands Sailing Adventure',
+      text: 'Sail around New Zealand’s stunning Northland region with daily excursions.',
+      style: 'classic',
+      service: 'comfort',
+      img: '/assets/oc-tour-10.jpg',
+      place: 'New Zealand',
+      rating: 'Light',
+      days: 5,
+      type: 'Small group',
+      price: 2700,
+      date: 'December 05, 2025',
+      age: '10+'
+    }
+  ]
 }
 
-    ]},
 };
