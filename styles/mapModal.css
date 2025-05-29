@@ -1,7 +1,9 @@
-
 .modal {
   position: fixed;
-  top: 0; left: 0; right: 0; bottom: 0;
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0;
   background: rgba(0, 0, 0, 0.7);
   display: flex;
   justify-content: center;
@@ -12,7 +14,7 @@
 .modal-content {
   background: #222;
   /* padding: 0 2rem 4rem 0rem; */
-  padding:3rem 3rem;
+  padding: 3rem 3rem;
   border-radius: 10px;
   overflow: hidden;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
@@ -41,8 +43,6 @@ svg {
   /* height: auto; */
 }
 
-
-
 .land {
   fill: #ccc;
   stroke: white;
@@ -54,7 +54,6 @@ svg {
 .land:hover {
   fill: #4ecdc4;
 }
-
 
 .close {
   position: absolute;

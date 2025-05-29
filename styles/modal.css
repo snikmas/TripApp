@@ -1,4 +1,3 @@
-/* modal *//* === MODAL OVERLAY === */
 .modal {
   display: none;
   position: fixed;
@@ -29,7 +28,7 @@
 
 }
 
-/* === CLOSE BUTTON === */
+/* === CLOSE === */
 .modal-close {
   
   position: absolute;
@@ -50,7 +49,7 @@
   height: 100%;
 }
 
-/* === IMAGE COLUMN === */
+/* === IMAGE === */
 .photo {
   flex: 1;
   display: flex;

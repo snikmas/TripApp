@@ -38,6 +38,8 @@ function getRegion(){
 
 const continentData = getRegion()
 
+document.querySelector('.main').classList.add(continentData)
+
 const formatTitlePage = continentData
   .replace(/([A-Z])/g, ' $1') 
   .replace(/^./, str => str.toUpperCase());

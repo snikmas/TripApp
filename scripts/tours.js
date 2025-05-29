@@ -1,6 +1,7 @@
 export const data = {
   africa: {
     description: 'Experience wild Africa: thrilling safaris, stunning landscapes, and unforgettable moments from savannas to waterfalls.',
+    backImg: '/assets/europeBack.jpg',
     tours: [
       {
         title: 'Safari: Bush Camps',
@@ -145,6 +146,7 @@ export const data = {
     },
     europe: {
     description: "Experience Europe’s rich history, world-famous cuisine, and breathtaking landscapes. From ancient cities to stunning coastlines, Europe offers a blend of culture, adventure, and charm.",
+    backImg: '/assets/europeBack.jpg', 
     tours: [
       {
         title: 'Trekking Mont Blanc',
@@ -289,6 +291,8 @@ export const data = {
     ]},
   asia: {
     description: "Discover Asia’s incredible diversity, from bustling metropolises to tranquil temples. Explore ancient traditions, exotic cuisine, and breathtaking natural wonders across this vast continent.",
+    backImg: '/assets/asiaBack.jpg',
+
     tours: [
       {
         title: 'Japan Express – Osaka to Tokyo',
@@ -434,6 +438,7 @@ export const data = {
 
   northAmerica: {
     description: 'Explore North America’s diverse landscapes, from vibrant cities to vast wilderness. Discover stunning national parks, cultural hotspots, and unforgettable outdoor adventures.',
+    backImg: '/assets/nAmericaBack.jpg',
     tours: [
       {
         title: 'Grand Canyon & National Parks Adventure',
@@ -580,6 +585,7 @@ export const data = {
 
   southAmerica: {
     description: 'Immerse yourself in South America’s vibrant cultures, lush rainforests, and spectacular mountain ranges. Experience colorful festivals, ancient ruins, and the warmth of its people.',
+    backImg: '/assets/sAmericaBack.jpg',
     tours: [
       {
         title: 'Machu Picchu & Sacred Valley',
@@ -724,6 +730,7 @@ export const data = {
 
 oceania: {
   description: 'Discover Oceania’s pristine beaches, rich indigenous cultures, and unforgettable natural wonders. From Australia’s outback to New Zealand’s fjords and the South Pacific’s idyllic islands, it’s a paradise for nature and adventure lovers.',
+  backImg: '/assets/oceaniaBack.jpg',
   tours: [
     {
       title: 'Great Barrier Reef Adventure',
