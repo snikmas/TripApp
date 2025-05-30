@@ -66,9 +66,18 @@ console.log(infoTours)
 if (infoTours){
 
   infoTours.tours.forEach((tour) => {
-
     const newContainer = document.createElement('div');
     newContainer.classList.add("card");
+
+    const tourImgage = tour.img ? tour.img : '../assets/no-img.png'
+
+    if(!tour.img){
+      newContainer.style.backgroundSize = '80%';
+      newContainer.style.backgroundPosition = 'center';
+      newContainer.style.backgroundRepeat = 'no-repeat';
+    }
+
+
     
     newContainer.innerHTML = `
     <div class="tour-info">
@@ -94,7 +103,7 @@ if (infoTours){
     `;
     
     
-    newContainer.style.backgroundImage = `url(${tour.img})`;
+    newContainer.style.backgroundImage = `url(${tourImgage})`;
     carouselTour.appendChild(newContainer);
     
     
@@ -111,7 +120,8 @@ if (infoTours){
       modalTripType.innerHTML = `<strong>${tour.type}</strong> – ${describeType(tour.type)}`
       modalAgeReq.innerHTML = `<strong>${tour.age}</strong> – ${describeAge(tour.age)}`
       modalPrice.innerHTML = `$${tour.price}`
-      modalImg.src = tour.img;
+      modalImg.src = tourImgage
+;
       
       
       

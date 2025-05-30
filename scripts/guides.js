@@ -30,7 +30,7 @@ export const guides = {
       "Amazon jungle day hikes",
       "Cultural and nature tour near Machu Picchu"
     ],
-    img: '/assets/team-3.jpg'
+    img: 'https://images.pexels.com/photos/2709388/pexels-photo-2709388.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
   },
   member_4: {
     fullName: "Emma Walsh",
@@ -52,10 +52,10 @@ export const guides = {
       "Walking the old wine trails in Tuscany",
       "Small-group food and culture walk in Geneva"
     ],
-    img: '/assets/team-5.jpg'
+    img: 'https://images.pexels.com/photos/1680175/pexels-photo-1680175.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
   },
   member_6: {
-    fullName: "Mark Thompson",
+    fullName: "Kim Jisoo",
     intro: "I specialize in wilderness tours — kayaking, hiking, and survival basics. I’ve worked with all experience levels and always tailor the trip to what the group needs most.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam facilis quisquam explicabo omnis illum dolorum ex, ratione libero veniam voluptas quas ullam numquam voluptatibus sed eius repellendus dolore mollitia dignissimos.",
     specialization: ["North America"],
     tours: [
@@ -63,7 +63,7 @@ export const guides = {
       "Hiking and camping in Yukon wilderness",
       "Wildlife observation tour in Alaska"
     ],
-    img: '/assets/team-6.jpg'
+    img: 'https://images.pexels.com/photos/2294478/pexels-photo-2294478.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
   },
   member_7: {
     fullName: "Liam Bennett",
@@ -74,7 +74,7 @@ export const guides = {
       "Old town walking tour in Kraków",
       "3-day cultural trip in Transylvania"
     ],
-    img: '/assets/team-7.jpg'
+    img: 'https://images.pexels.com/photos/19375661/pexels-photo-19375661.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
   },
   member_8: {
     fullName: "Maya Johnson",
@@ -85,6 +85,6 @@ export const guides = {
       "Forest retreat in Northern California",
       "Mindful travel weekend in New Mexico"
     ],
-    img: '/assets/team-8.jpg'
+    img: 'https://images.pexels.com/photos/20763346/pexels-photo-20763346.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'
   }
 };
