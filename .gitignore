@@ -1,17 +1,1 @@
 notes
-
-git config --global http.proxy http://username:password@proxy.server.com:8080
-git config --global https.proxy http://github.com/snikmas:Teva1904:127.0.0.1:3321
-
-//Replace username with your proxy username
-//Replace password with your proxy password
-//Replace proxy.server.com with the proxy domain URL.
-//Replace 8080 with the proxy port no configured on the proxy server.
-
-https://github.com/snikmas:Teva1904:127.0.0.1:3321
-http://github.com/snikmas:Teva1904:127.0.0.1:3321
-https://github.com/snikmas:Teva1904:127.0.0.1:3321
-https://github.com/snikmas:Teva1904:127.0.0.1:3321
-
-git config --global http.proxy http://snikmas:Teva1904@127.0.0.1:3321
-git config --global https.proxy http://yourUsername:yourPassword@127.0.0.1:3321
