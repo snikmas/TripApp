@@ -109,7 +109,7 @@ export const data = {
         text: 'Explore the unique flora and fauna of Madagascar’s eastern jungles.',
         style: 'active',
         service: 'standard',
-        img: '/assets/africa-tour-9.jpg',
+        img: 'https://images.pexels.com/photos/14181536/pexels-photo-14181536.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
         place: 'Madagascar',
         rating: 'Average',
         days: 9,
